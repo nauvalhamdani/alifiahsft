@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun!</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+        }
+
+        h1 {
+            color: #87ceeb;
+            font-size: 50px;
+            display: inline-block;
+            animation: jump 1s infinite;
+        }
+
+        p {
+            font-size: 20px;
+            color: #333;
+        }
+
+        img {
+            width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
+
+        audio {
+            margin-top: 20px;
+        }
+
+        /* Animasi untuk teks loncat-loncat */
+        @keyframes jump {
+            0% { transform: translateY(0); }
+            30% { transform: translateY(-20px); }
+            50% { transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <h1>Selamat Ulang Tahun!</h1>
+    <p>Semoga bertambahnya usia bertambah pula kebahagiannya!!!</p>
+    <img src="Design.png" alt="Ucapan Ulang Tahun">
+    
+    <audio controls autoplay>
+        <source src="hbd.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+</body>
+</html>
